@@ -11,9 +11,11 @@
 ### <a name="description"></a> Description:
 I created an online art store using HTML, CSS & JS. It has a functional shop, cart and shipping page. I used what i have learned so far, stackoverflow and youtube. 
 <hr>
-The project is important as it ties together all that I have learnt over the course of the bootcamp and puts all together in one big project (or online store in this case).
+The store has five pages. The index which is the landing/catalogue page, an about page, shop, cart and shipping/checkout page.
 
-It contains a landing page with navigation to the various other pages (catalogue, cart and checkout). A catalogue displaying all the items the shop has to offer and alerts to the price of the cart.
+The landing/catalogue page displays what the store is selling.
+
+And the about us page tells a story on how the store started and why it was started.
 
 A cart which displays all the products the user has added to the cart including the price, quantity and name of the product.
 
