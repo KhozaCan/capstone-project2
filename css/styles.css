@@ -1,0 +1,457 @@
+body {
+    font-family: 'Montserrat';
+    font-weight: bold;
+    text-align: center;
+}
+
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+    font-family: 'Montserrat';
+    font-weight: 700;
+}
+
+
+p {
+    color: #8f8f8f;
+    font-weight: 500;
+}
+
+.big-heading {
+    font-family: 'Montserrat';
+    font-weight: 900;
+    font-size: 3.5rem;
+    line-height: 1.5;
+}
+
+.section-heading {
+    font-size: 3rem;
+    line-height: 1.5;
+}
+
+/* Containers */
+.container-fluid {
+    padding: 7% 15%;
+}
+
+/* Sections */
+
+.coloured-section {
+    background-color: grey;
+    color: white;
+}
+
+.coloured-section p {
+    color: white;
+}
+
+.white-section {
+    background-color: #fff;
+}
+
+/* Navigation Bar */
+
+.navbar {
+    padding: 0 0 4.5rem;
+}
+
+.navbar-brand {
+    font-family: 'Ubuntu';
+    font-size: 2.5rem;
+    font-weight: bold;
+}
+
+.nav-item {
+    padding: 0 18px;
+}
+
+.nav-link {
+    font-family: 'Montserrat';
+    font-weight: 400;
+    font-size: 1.2rem;
+}
+
+
+/* Title Section */
+
+#title .container-fluid {
+    padding: 3% 15% 7%;
+    text-align: left;
+}
+
+#catalogue {
+    background-color: #ef8172;
+    padding-bottom: 3%;
+}
+
+.catalogue-logo {
+    width: 15%;
+    margin: 25px 25px 50px;
+    border: 1px solid;
+}
+
+/* Features Section */
+
+#features {
+
+    position: relative;
+}
+
+.feature-title {
+    font-size: 1.5rem;
+}
+
+.feature-box {
+    text-align: center;
+    padding: 5%;
+}
+
+.icon {
+    color: #ef8172;
+    margin-bottom: 1rem;
+}
+
+.icon:hover {
+    color: #ff4c68
+}
+
+/* Testimonial */
+
+#testimonials {
+    background-color: grey;
+    padding: 2% 15%;
+}
+
+/* popular and testimonial-text combined */
+.popular .testimonial-text {
+    font-size: 3.5rem;
+    line-height: 1.5;
+}
+
+.testimonial-image {
+    width: 10%;
+    border-radius: 100%;
+    margin-right: 20px;
+}
+
+
+
+/* Popular Section */
+
+#popular {
+    padding: 100px;
+}
+
+
+.img {
+    width: 250px;
+    margin: 0 40px 25px 50px;
+    border: 1px solid grey;
+}
+
+.white-section img {
+    -webkit-filter: blur(5px);
+    filter: blur(3px);
+}
+
+.white-section h6 {
+    font-family: 'Ubuntu';
+    font-weight: 400;
+    font-size: 2rem;
+}
+
+/* mailing list */
+
+#mailing {
+    color: #fff;
+
+}
+
+/* social icon section */
+
+.social-icon {
+    margin: 20px 10px;
+    background-color: #fff;
+}
+
+/* responsive based on the size of a device */
+
+@media (max-width: 1028px) {
+
+    #title {
+        text-align: center;
+    }
+}
+
+
+/* catalogue hover overlay */
+.container {
+    position: relative;
+    display: flex;
+}
+
+.img1-wrap {
+    position: relative;
+    overflow: hidden;
+    width: 100%;
+}
+
+.image {
+    display: block;
+    width: 100%;
+    height: auto;
+    border: 1px solid grey;
+}
+
+.overlay {
+    display: block;
+    position: absolute;
+    bottom: 0;
+    left: 0;
+    right: 0;
+    background-color: grey;
+    overflow: hidden;
+    width: 100%;
+    height: 20%;
+    transition: .5s ease;
+}
+
+.img1-wrap:hover .overlay {
+    height: 100%;
+}
+
+.text {
+    color: white;
+    font-size: 10px;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    -ms-transform: translate(-50%, -50%);
+    transform: translate(-50%, -50%);
+}
+
+/* shipping page */
+
+* {
+    box-sizing: border-box;
+}
+
+.row {
+    display: -ms-flexbox;
+    /* IE10 */
+    display: flex;
+    -ms-flex-wrap: wrap;
+    /* IE10 */
+    flex-wrap: wrap;
+    margin: 0 -16px;
+}
+
+.col-25 {
+    -ms-flex: 25%;
+    /* IE10 */
+    flex: 25%;
+}
+
+.col-50 {
+    -ms-flex: 50%;
+    /* IE10 */
+    flex: 50%;
+}
+
+.col-75 {
+    -ms-flex: 75%;
+    /* IE10 */
+    flex: 75%;
+}
+
+.col-25,
+.col-50,
+.col-75 {
+    padding: 0 16px;
+}
+
+.cart {
+    background-color: #f2f2f2;
+    padding: 5px 20px 15px 20px;
+    border: 1px solid lightgrey;
+    border-radius: 3px;
+}
+
+input[type=text] {
+    width: 100%;
+    margin-bottom: 20px;
+    padding: 12px;
+    border: 1px solid #ccc;
+    border-radius: 3px;
+}
+
+label {
+    margin-bottom: 10px;
+    display: block;
+}
+
+.icon-container {
+    margin-bottom: 20px;
+    padding: 7px 0;
+    font-size: 24px;
+}
+
+.btn {
+    background-color: black;
+    color: white;
+    padding: 12px;
+    margin: 10px 0;
+    border: none;
+    width: 100%;
+    border-radius: 3px;
+    cursor: pointer;
+    font-size: 17px;
+}
+
+.btn:hover {
+    background-color: grey;
+}
+
+a {
+    color: #2196F3;
+}
+
+hr {
+    border: 1px solid lightgrey;
+}
+
+span.price {
+    float: right;
+    color: grey;
+}
+
+/* Responsive layout - when the screen is less than 800px wide, make the two columns stack on top of each other instead of next to each other (also change the direction - make the "cart" column go on top) */
+@media (max-width: 800px) {
+    .row {
+        flex-direction: column-reverse;
+    }
+
+    .col-25 {
+        margin-bottom: 20px;
+    }
+}
+
+
+/* About Us CSS */
+
+.img-about {
+    width: 220px;
+    margin: 0 40px 25px 50px;
+    border: 1px solid grey;
+}
+
+.img-about:hover {
+    animation: shake 0.5s;
+}
+
+@keyframes shake {
+    0% {
+        transform: translate(1px, 1px) rotate(0deg);
+    }
+
+    10% {
+        transform: translate(-1px, -2px) rotate(-1deg);
+    }
+
+    20% {
+        transform: translate(-3px, 0px) rotate(1deg);
+    }
+
+    30% {
+        transform: translate(3px, 2px) rotate(0deg);
+    }
+
+    40% {
+        transform: translate(1px, -1px) rotate(1deg);
+    }
+
+    50% {
+        transform: translate(-1px, 2px) rotate(-1deg);
+    }
+
+    60% {
+        transform: translate(-3px, 1px) rotate(0deg);
+    }
+
+    70% {
+        transform: translate(3px, 1px) rotate(-1deg);
+    }
+
+    80% {
+        transform: translate(-1px, -1px) rotate(1deg);
+    }
+
+    90% {
+        transform: translate(1px, 2px) rotate(0deg);
+    }
+
+    100% {
+        transform: translate(1px, -2px) rotate(-1deg);
+    }
+}
+
+.light-section {
+    background: linear-gradient(-45deg, #ee7752, #e73c7e, #23a6d5, #23d5ab);
+    background-size: 400% 400%;
+    animation: gradient 15s ease infinite;
+    margin: 0 auto;
+}
+
+@keyframes gradient {
+    0% {
+        background-position: 0% 50%;
+    }
+
+    50% {
+        background-position: 100% 50%;
+    }
+
+    100% {
+        background-position: 0% 50%;
+    }
+}
+
+/* table */
+table {
+    border-collapse: collapse;
+    width: 100%;
+}
+
+th,
+td {
+    padding: 8px;
+    text-align: left;
+    border-bottom: 1px solid #ddd;
+}
+
+.float {
+    float: right;
+}
+
+body .story {
+    padding: 3% 15% 7%;
+    text-align: left;
+    font-family: monospace;
+    color: black;
+}
+
+.inspiration {
+    font-family: monospace;
+    font-size: 1rem;
+    padding: 3% 15% 7%;
+    color: black;
+
+    /* popular section */
+
+}
+
+
+/* catalogue page */
