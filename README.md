@@ -6,6 +6,7 @@
 * [Description](#description)
 * [Installation](#installation)
 * [Howto](#howto)
+* [Screenshots](#screenshots)
 * [Credits](#credits)
 
 ### <a name="description"></a> Description:
@@ -31,6 +32,35 @@ Simply click on the repository name and then click the green button called 'Code
 ### <a name="howto"> </a> Usage:
 
 Once downloaded simply open up landingPage.html and then the site should be fully functional from there!
+
+<hr>
+
+### <a name="screenshots"><a> Screenshots:
+
+Landing page:
+<hr>
+
+![Image of landing page](https://user-images.githubusercontent.com/60001341/130094722-1e89b2ac-a073-47a5-b8cc-9a00e77a3508.png)
+
+About us:
+<hr>
+
+![Image of About us page](https://user-images.githubusercontent.com/60001341/130094856-23c08916-77d9-4e28-90cb-c096e7af7a40.png)
+
+Shop:
+<hr>
+
+![Image of Shop page](https://user-images.githubusercontent.com/60001341/130094976-5b26736f-e470-4465-823e-73cbd6cb608f.png)
+
+Cart:
+<hr>
+
+![Image of Cart page](https://user-images.githubusercontent.com/60001341/130095051-faeb3d15-0405-466f-8568-b23fdfa5ee89.png)
+
+Shipping/Checkout:
+<hr>
+
+![Image of Shipping/Checkout page](https://user-images.githubusercontent.com/60001341/130095137-39d4a1a3-b723-40d1-b39e-b15c7061bdec.png)
 
 <hr>
 
